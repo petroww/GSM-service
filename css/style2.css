@@ -1,0 +1,123 @@
+.service {
+	color: orange;
+    padding-left: 20px;
+    font-size: 30px;
+}
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: disc;}
+ul.c {list-style-type: square;}
+
+form.form {
+max-width: 400px;
+margin:0 auto;
+padding: center;
+}
+fieldset.fieldset {
+	border-radius:5px
+}
+
+.verticalbar ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ccffff;
+  font-size: 20px;
+
+}
+.verticalbar li a{
+  display: block;
+  color: #000;
+  padding-top: 2px;
+ 
+  text-decoration: none;
+  font-size: 20px;
+}
+.verticalbar li a:hover {
+  background-color: #1affff;
+  color: white;
+}
+.gsm-title-bar{
+	background-color: black;
+	color: white;
+	height: 35px;
+	width: 100%;
+	font-size: 25px;
+padding-top:20px;
+padding-left: 15px;
+text-align: center;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  width: 450px;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 450px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  text-align: center;
+
+}
+
+.dropdown-content a {
+  color: orange;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.post{
+	float: right;
+font-size: 20px;
+color: gray;
+margin-left: 20px;
+margin-right: 20px;
+}
+.gsm-servicePic
+{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin-left: 5px;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+.strongWords{
+color: black;
+text-align:center;
+}
+
+.contact{
+  font-size: 15px;
+}
+table {
+  color:white;
+  margin:10px;
+}
